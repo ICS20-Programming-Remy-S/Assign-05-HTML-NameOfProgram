@@ -30,6 +30,8 @@ function enterClicked () {
 
   let counter1 =  min;
 
+  let counter = max;
+
   //statement for when min is larger than max
 
   if (min > max){
@@ -56,12 +58,13 @@ function enterClicked () {
 }
 }
       else {
-        for (counter2 == max; counter2 >= min; counter2--) {
+        while (counter >= min) {
 
-          remainder = message + userNumber % counter2
+          remainder = userNumber % counter
 
-          message = userNumber + "%" + counter2 + "=" + remainder + "<br>"
+          message = message + userNumber + " % " + counter + " = " + remainder + "<br>"
           
+          counter = counter - 1
 }
 }
 }
