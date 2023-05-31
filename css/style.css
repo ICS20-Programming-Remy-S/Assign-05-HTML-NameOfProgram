@@ -5,23 +5,23 @@
 */
 
 body {
-	background-color: #98c8fb;
+	background-color: #ad98fb;
 }
 
 h2 {
-	background-color: rgb(233, 103, 103);
-	color: hsl(233, 100%, 78%);
+	background-color: rgb(103, 233, 125);
+	color: hsl(241, 100%, 78%);
 	padding: 40px;
 	text-align: center;
 }
 
 H5 {
-	background-color: #f99058;
-  color: hsl(267, 100%, 24%);
+	background-color: #c0f958;
+  color: hsl(238, 100%, 24%);
 }
 
 p {
-	background-color: #f9f458;
+	background-color: #58f980;
 }
 
 

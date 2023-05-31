@@ -33,11 +33,11 @@
     </header>
     <!--- Header at the top of page with subheader--->
     <h2>Remainder Calculator</h2>
-    <h5>Please Entre your Number you Want the Remainder of(Use min and max for the remainder of your number).</h5>
+    <h5>Please Entre your Number you Want the Remainder of(Use min and max for the area of numbers you want the remainder of).</h5>
     <!--- Function --->
     <form action="javascript:enterClicked()">
     <!--- User's number --->
-      <label for="userNumber">Please Entre Your Number Number:</label>
+      <label for="userNumber">Please Entre Your Number:</label>
       <input type="number" id="user-number" placeholder="ex.12" step="1"><br><br>
       
       <label for="min">Please Entre Your min Number:</label>
@@ -54,7 +54,9 @@
       
       <p></p>
       
-      <input type="submit" value="Get Results">
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick ="enterClicked()">
+        Get Results
+</button>
     </form>
     </p>
     <!-- Create a space where the factorial will be displayed -->

@@ -8,7 +8,7 @@
 function enterClicked () {
   //message for the user
   
-  let message = ""
+  let message = "";
   
   // get user input for remainder
   
@@ -30,7 +30,6 @@ function enterClicked () {
 
   let counter1 =  min;
 
-  let counter = max;
 
   //statement for when min is larger than max
 
@@ -58,13 +57,13 @@ function enterClicked () {
 }
 }
       else {
-        while (counter >= min) {
+        for (let counter = max ;counter >= min; counter = counter - 1) {
 
           remainder = userNumber % counter
 
           message = message + userNumber + " % " + counter + " = " + remainder + "<br>"
-          
-          counter = counter - 1
+
+
 }
 }
 }
